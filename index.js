@@ -11,8 +11,13 @@ imports.forEach(file => {
 });
 
 async function start() {
-    const opt = rl.question('select day: ');
-    cmd.get(opt).exe();
+    const day = rl.question('select day: ');
+    try {
+        if (/\D+/g.test(day)) throw 'only numbers';
+        if (parseInt(day) < 1 || parseInt(day) > 25) throw 'not a valid day';
+        const opt = parseInt(day) < 10 ? 'dec0' + day : 'dec' + day;
+        cmd.get(opt).exe();
+    } catch(err) console.log(err);
 }
 
 start();
