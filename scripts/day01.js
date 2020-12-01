@@ -3,9 +3,7 @@
 module.exports = {
     name: 'day01',
     exe: () => {
-        const path = require('path');
-        const filepath = path.join(__dirname, '../inputs/day01.txt');
-        const input = require('fs').readFileSync(filepath, 'utf-8').split('\n').filter(Boolean).map(x => parseInt(x));
+        const input = require('fs').readFileSync(require('path').join(__dirname, '../inputs/day01.txt'), 'utf-8').split('\n').filter(Boolean).map(x => parseInt(x));
         let a, b;
         out1: for (let i = 0; i < input.length - 1; i++) {
             for (let j = i + 1; j < input.length; j++) {
