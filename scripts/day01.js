@@ -4,6 +4,8 @@ module.exports = {
     name: 'day01',
     exe: () => {
         const input = require('fs').readFileSync(require('path').join(__dirname, '../inputs/day01.txt'), 'utf-8').split('\n').filter(Boolean).map(x => parseInt(x));
+
+        // Part One: find two numbers in a list that sum to 2020 and return their product.
         let a, b;
         out1: for (let i = 0; i < input.length - 1; i++) {
             for (let j = i + 1; j < input.length; j++) {
@@ -16,6 +18,8 @@ module.exports = {
             }
         }
         console.log('Part One: ' + a + ' * ' + b + ' = ' + (a * b).toString());
+        
+        // Part Two: find three numbers in a list that sum to 2020 and return their product.
         let c, d, e;
         out2: for (let i = 0; i < input.length - 2; i++) {
             for (let j = i + 1; j < input.length - 1; j++) {
