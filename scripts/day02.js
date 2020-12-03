@@ -31,7 +31,7 @@ module.exports = {
             'pwd': x.match(/[a-zA-Z]+$/)[0]
         }));
         let d = 0;
-        c.forEach(x => d += x.pwd[x.pos1] === x.ltr ? x.pwd[x.pos2] !== x.ltr : x.pwd[x.pos2] === x.ltr);
+        c.forEach(x => d += (x.pwd[x.pos1] === x.ltr) !== (x.pwd[x.pos2] === x.ltr));
         console.log('Part Two: ' + d);
     }
 }
