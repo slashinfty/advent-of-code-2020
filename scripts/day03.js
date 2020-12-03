@@ -30,8 +30,7 @@ module.exports = {
         let down = 1;
         do {
             a += input[down][right] === '#';
-            right += 3;
-            right = right >= input[down].length ? right % input[down].length : right;
+            right = (right + 3) % input[down].length;
             down++;
         } while (down < input.length);
         console.log('Part One: ' + a);
@@ -51,8 +50,7 @@ module.exports = {
             let d = s[1];
             do {
                 c += input[d][r] === '#';
-                r += s[0];
-                r = r >= input[s[1]].length ? r % input[s[1]].length : r;
+                r = (r + s[0]) % input[s[1]].length;
                 d += s[1];
             } while (d < input.length);
             b *= c;
