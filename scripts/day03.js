@@ -22,9 +22,9 @@ module.exports = {
         const input = raw.map(x => x.split(''));
         */
         // Part one test answer: 7
-        // Part two test answer: 
+        // Part two test answer: 336
 
-        // Part one: 
+        // Part one: how many #'s do you hit as you move three positions right down the rows.
         let a = 0;
         let right = 3;
         let down = 1;
@@ -35,7 +35,7 @@ module.exports = {
         } while (down < input.length);
         console.log('Part One: ' + a);
 
-        // Part two: 
+        // Part two: what is the product of #'s you hit through each of the slopes.
         let b = 1;
         let slopes = [
             [1, 1],
