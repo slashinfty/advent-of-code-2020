@@ -12,7 +12,7 @@ module.exports = {
         // Part one: determine the highest seat ID (row * 8 + column).
         // Part two: determine your seat, knowing seat IDs adjacent to yours are taken.
         let a = 0;
-        const b = [...Array(1023).keys()];
+        const b = [...Array(1024).keys()];
         input.forEach(x => {
             const row = [0, 127];
             const col = [0, 7];
