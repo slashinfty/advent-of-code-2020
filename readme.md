@@ -6,3 +6,4 @@ My scripts for Advent of Code 2020. Written entirely in JavaScript. Only depende
 * Day 3 Complete: 12/3 8:30am EST
 * Day 4 Complete: 12/4 10:45am EST
 * Day 5 Complete: 12/5 1:00am EST
+* Day 6 Complete: 12/6 1:15am EST
