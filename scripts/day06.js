@@ -36,11 +36,11 @@ module.exports = {
                 a += c.length;
                 b += d.length;
                 c = [];
-                d = [...input[i + 1]];
+                d = i !== input.length - 1 ? [...input[i + 1]] : [];
                 continue;
             }
             [...input[i]].forEach(x => c.indexOf(x) === -1 ? c.push(x) : null);
-            if (i !== 0) d = d.filter(x => input[i].includes(x));
+            d = d.filter(x => input[i].includes(x));
             if (i === input.length - 1) {
                 a += c.length;
                 b += d.length;
