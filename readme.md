@@ -10,3 +10,11 @@ Node.js only!
 * Day 6 Complete: 12/6 1:15am EST
 * Day 7 Complete: 12/7 5:45pm EST
 * Day 8 Complete: 12/8 6:00pm EST
+
+Some lessons and things I've learned:
+
+* `.reduce()` is great at performing operations on arrays
+* It might not be as readable, but you can add `true` and `false` as 1 and 0
+* If you want to copy an array to manipulate, be sure to create a new array (like `[...array]`)
+* Classes and recursion can be used for nesting problems in a pinch
+* Loops in loops? Use references to determine what to `break` from
