@@ -1,4 +1,5 @@
 'use strict';
+// Password Philosophy
 
 module.exports = {
     name: 'day02',

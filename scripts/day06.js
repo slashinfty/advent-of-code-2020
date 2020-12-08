@@ -1,4 +1,5 @@
 'use strict';
+// Custom Customs
 
 module.exports = {
     name: 'day06',

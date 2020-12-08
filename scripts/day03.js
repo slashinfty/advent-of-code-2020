@@ -1,4 +1,5 @@
 'use strict';
+// Toboggan Trajectory
 
 module.exports = {
     name: 'day03',

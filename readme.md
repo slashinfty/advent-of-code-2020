@@ -1,5 +1,17 @@
 # Advent of Code 2020
-My scripts for Advent of Code 2020. Written entirely in JavaScript. Only dependency is `readline-sync` to select a day from the command line.
+
+ ▄▄▄· ·▄▄▄▄   ▌ ▐·▄▄▄ . ▐ ▄ ▄▄▄▄▄          ·▄▄▄     ▄▄·       ·▄▄▄▄  ▄▄▄ .
+▐█ ▀█ ██▪ ██ ▪█·█▌▀▄.▀·•█▌▐█•██      ▪     ▐▄▄·    ▐█ ▌▪▪     ██▪ ██ ▀▄.▀·
+▄█▀▀█ ▐█· ▐█▌▐█▐█•▐▀▀▪▄▐█▐▐▌ ▐█.▪     ▄█▀▄ ██▪     ██ ▄▄ ▄█▀▄ ▐█· ▐█▌▐▀▀▪▄
+▐█ ▪▐▌██. ██  ███ ▐█▄▄▌██▐█▌ ▐█▌·    ▐█▌.▐▌██▌.    ▐███▌▐█▌.▐▌██. ██ ▐█▄▄▌
+ ▀  ▀ ▀▀▀▀▀• . ▀   ▀▀▀ ▀▀ █▪ ▀▀▀      ▀█▄▀▪▀▀▀     ·▀▀▀  ▀█▄▀▪▀▀▀▀▀•  ▀▀▀ 
+
+
+                 __                   _           
+   |  _.     _. (_   _ ._ o ._ _|_   / \ ._  |    
+ \_| (_| \/ (_| __) (_ |  | |_) |_   \_/ | | | \/ 
+                            |                  /  
+
 
 * Day 1 Complete: 12/1 8:15am EST
 * Day 2 Complete: 12/2 8:30am EST
@@ -8,3 +20,4 @@ My scripts for Advent of Code 2020. Written entirely in JavaScript. Only depende
 * Day 5 Complete: 12/5 1:00am EST
 * Day 6 Complete: 12/6 1:15am EST
 * Day 7 Complete: 12/7 5:45pm EST
+* Day 8 Complete: 12/8 6:00pm EST

@@ -1,4 +1,5 @@
 'use strict';
+// Binary Boarding
 
 module.exports = {
     name: 'day05',
