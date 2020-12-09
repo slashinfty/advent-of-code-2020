@@ -20,8 +20,8 @@ module.exports = {
         // Part one test answer: 4
         // Part two test answer: 32
 
-        // Part one: how many bags could contain a shiny gold bag
-        // Part two: how many bags does a shiny gold bag hold
+        // Part one: how many bags could contain a shiny gold bag.
+        // Part two: how many bags does a shiny gold bag hold.
         class Bag {
             constructor (bagName, containsBagsObject) {
                 this.name = bagName;

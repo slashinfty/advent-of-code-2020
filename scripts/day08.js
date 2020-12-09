@@ -19,7 +19,7 @@ module.exports = {
         // Part one test answer: 5
         // Part two test answer: 8
 
-        // Part one: Determine accumulator when code loops
+        // Part one: Determine accumulator when code loops.
         let a = 0;
         let b = 0;
         let c = [];
@@ -33,7 +33,7 @@ module.exports = {
         } while (true);
         console.log('Part One: ' + a);
 
-        // Part two: Determine accumulator when code is fixed and finishes
+        // Part two: Determine accumulator when code is fixed and finishes.
         a = 0;
         b = 0;
         c = [];
