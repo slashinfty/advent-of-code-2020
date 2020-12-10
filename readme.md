@@ -11,6 +11,7 @@ Node.js only!
 * Day 7 Complete: 12/7 5:45pm EST
 * Day 8 Complete: 12/8 6:00pm EST
 * Day 9 Complete: 12/9 12:45am EST
+* Day 10 Complete: 12/10 8:15am EST
 
 Some lessons and things I've learned:
 
