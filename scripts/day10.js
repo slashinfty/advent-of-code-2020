@@ -10,10 +10,11 @@ module.exports = {
         // Part one test answer: 220
         // Part two test answer: 19208
 
-        // Part one: Find the number of differences of 1 and 3 of the numbers, and multiply the result
+        // Part one: Find the number of differences of 1 and 3 of the numbers, and multiply the result.
         const a = [...input.sort((x, y) => x - y)];
         a.unshift(0);
         a.push(a.reduce((x, y) => Math.max(x, y)) + 3);
+        console.log(a);
         let i = 1;
         let ones = 0;
         let threes = 0;
@@ -24,7 +25,7 @@ module.exports = {
         } while (i < a.length);
         console.log('Part One: ' + (ones * threes).toString());
 
-        // Part two: Find the number of distinct arrangements of numbers
+        // Part two: Find the number of distinct arrangements of numbers.
         const b = [1];
         i = 1;
         do {
